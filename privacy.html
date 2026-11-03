@@ -40,34 +40,42 @@
       </p>
 
       <h2>Information stored by Kept</h2>
-      <p>Kept stores the information you enter so the app can provide its core functionality:</p>
+      <p>Kept stores the following so the app can provide its core functionality:</p>
       <ul>
         <li>your Promise text;</li>
         <li>optional Target and Extra text;</li>
         <li>whether a Promise is unresolved, Kept, or Missed;</li>
         <li>the dates and times needed to show the correct day and history;</li>
+        <li>the time zone used for each day, so your history stays on the correct date when you travel;</li>
         <li>the repeat schedule for a repeating or flexible weekly Promise, including the weekdays you choose;</li>
         <li>when a paused repeating Promise should return;</li>
-        <li>an optional local reminder time;</li>
+        <li>an optional local reminder time and evening check-in time;</li>
         <li>optional factual context you add after a Missed Promise;</li>
         <li>optional reflections you choose to add;</li>
-        <li>whether a Promise is archived; and</li>
-        <li>whether the optional pebble sound is on.</li>
+        <li>whether a Promise is archived;</li>
+        <li>weekly and monthly reviews you complete, including an optional short monthly note;</li>
+        <li>a 14-day experiment you start, including a copy of the Promise text and your midpoint and closing choices;</li>
+        <li>notes you saved in Notes for Kept in an earlier version, which stay on your iPhone and in your backups; and</li>
+        <li>your app settings, such as app lock, appearance, the pebble sound, and the state of a quiet session.</li>
       </ul>
       <p>
         This information stays on your iPhone. Archived Promises stay on your
-        iPhone. Reusing a past or archived Promise, or preparing another
-        attempt, does not change history. Local reminders do not include your
-        Promise text.
+        iPhone. Kept does not request or use your location. Reusing a past or
+        archived Promise, or preparing another attempt, does not change
+        history. Local reminders do not include your Promise text.
       </p>
 
       <h2>Information we collect</h2>
       <p>Kept does not automatically transmit your Promise data or app-usage data to us.</p>
+      <p>
+        Apple’s App Store privacy label for Kept is “Data Not Collected.” The
+        developer does not collect any data from this app.
+      </p>
       <p>Kept version 23.0 has:</p>
       <ul>
         <li>no account or sign-in;</li>
         <li>no developer-operated backend;</li>
-        <li>no analytics, advertising, or tracking;</li>
+        <li>no analytics, advertising, attribution, or tracking SDK;</li>
         <li>no cloud-sync feature;</li>
         <li>no subscription; and</li>
         <li>no AI feature.</li>
@@ -76,7 +84,9 @@
         The core experience works offline. Optional local reminders use iOS
         notification permission. A separate evening check-in is available for
         days that remain unresolved. Notification text stays generic and does
-        not include your Promise text.
+        not include your Promise text. If you turn on experiment reminders,
+        Kept also sends generic midpoint and closing notifications for a
+        14-day experiment. They do not include your Promise text.
       </p>
 
       <h2>Backup, restore, and export</h2>
@@ -87,17 +97,44 @@
         You choose where to keep them. Kept has no account and no cloud
         service that receives these files.
       </p>
+      <p>
+        A backup is a JSON file that can restore Kept. The readable history
+        is a CSV file and cannot be restored. Both files can include your
+        Promise text and private notes and are not encrypted. Restoring a
+        backup replaces the data on this iPhone after you confirm. You can
+        also use the share sheet to share an experiment summary or a saved
+        note; nothing is shared until you choose a destination.
+      </p>
 
       <h2>App lock</h2>
       <p>
-        You can turn on an optional app lock. It uses your iPhone’s
-        authentication. You can leave it off.
+        You can turn on an optional app lock. It uses Face ID, Touch ID, or
+        your iPhone passcode through iOS. Kept never receives your Face ID,
+        Touch ID, or passcode data; iOS only tells Kept whether authentication
+        succeeded. App lock does not encrypt local data or device backups, and
+        widgets, Siri counts, and files you exported remain outside app lock.
+        You can leave it off.
       </p>
 
-      <h2>Home Screen widget</h2>
+      <h2>Widgets</h2>
       <p>
-        The Home Screen widget shows counts only. It does not display your
-        Promise text. Those counts stay on your iPhone.
+        Kept’s Home Screen and Lock Screen widgets show counts only. They
+        never display your Promise text. To update them, Kept shares only
+        those counts with its widget through a container on your iPhone.
+      </p>
+
+      <h2>Siri and Shortcuts</h2>
+      <p>
+        Kept offers App Shortcuts. Asking Siri for your open Promises returns
+        counts only, without reading Promise text. Shortcuts run on your
+        iPhone.
+      </p>
+
+      <h2>Pebble jar</h2>
+      <p>
+        While the pebble jar is on screen, Kept uses your iPhone’s motion
+        sensor to tilt the pebbles. Motion data is not stored. With Reduce
+        Motion on, the jar stays still.
       </p>
 
       <h2>Pebble sound</h2>
